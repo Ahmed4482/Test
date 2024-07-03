@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 
-app.get("/", (req, res) => {
+app.get("ahmed4482.github.io/Test/", (req, res) => {
   let name = superheroes.random();
   res.send(`<h1>Behold, I am ${name}!</h1>`);
 });
